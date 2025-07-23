@@ -59,6 +59,6 @@ elif numeros_acertados == 5:
 elif numeros_acertados == 6:
     print("Parabéns!! você ganhou  prêmio Maximo por acertar 6 números!")
 
-# Armazenando dados no historico
 
+        
 
