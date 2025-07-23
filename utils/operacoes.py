@@ -41,6 +41,9 @@ def exibir_resultados(numeros_usuario, numeros_sorteados, numeros_acertados):
     print(f"\nNúmeros sorteados: {sorted(numeros_sorteados)}")
     print(f"Seus números: {sorted(numeros_usuario)}")
     print(f"Você acertou {len(numeros_acertados)} número(s): {sorted(numeros_acertados)}")
+    
+    
+        
 
 def premiar_jogador(quantidade_acertos):
     """
@@ -70,7 +73,5 @@ def main():
     exibir_resultados(numeros_escolhidos_pelo_usuario, numeros_sorteados_loteria, numeros_que_correspondem)
     premiar_jogador(len(numeros_que_correspondem))
 
-# Armazenando dados no historico
-def historico():
-    with open('historico.txt', 'a', encoding='utf-8') as arquivo:
-        dados = arquivo.write(f'\n {}')
+
+    
