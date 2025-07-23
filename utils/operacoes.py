@@ -56,6 +56,7 @@ def premiar_jogador(quantidade_acertos):
         print("Você ganhou um prêmio por acertar 5 números!")
     elif quantidade_acertos == 6:
         print("Parabéns!! Você ganhou o prêmio máximo por acertar 6 números!")
+    return quantidade_acertos
 
 def main():
     """
@@ -69,5 +70,7 @@ def main():
     exibir_resultados(numeros_escolhidos_pelo_usuario, numeros_sorteados_loteria, numeros_que_correspondem)
     premiar_jogador(len(numeros_que_correspondem))
 
-if __name__ == "__main__":
-    main()
+# Armazenando dados no historico
+def historico():
+    with open('historico.txt', 'a', encoding='utf-8') as arquivo:
+        dados = arquivo.write(f'\n {}')
