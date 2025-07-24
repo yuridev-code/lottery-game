@@ -8,14 +8,12 @@
 # ● Descrição: Criar um simulador de loteria que sorteie números aleatórios e permita ao usuário
 # verificar se os números escolhidos foram sorteados e realizar o registro da aposta.
 # ● Funcionalidades (50 pontos):
-# o Geração de números aleatórios para o sorteio (10 pontos).
-# o Comparação dos números sorteados com os números escolhidos pelo usuário (10
-# pontos).
+#o Geração de números aleatórios para o sorteio (10 pontos). ===OK===
+#o Comparação dos números sorteados com os números escolhidos pelo usuário (10 pontos). ===OK===
 # o Realizar registro das apostas e armazenar em um arquivo de texto (10 pontos).
-# o Exibição dos resultados do sorteio e indicação de quantos números o usuário acertou (10
-# pontos).
-# o Armazenamento dos resultados em um arquivo de texto para futuras
-# consultas/leituras/exibições (10 pontos).
+#o Exibição dos resultados do sorteio e indicação de quantos números o usuário acertou (10 pontos). ===OK===
+# o Armazenamento dos resultados em um arquivo de texto para futuras consultas/leituras/exibições (10 pontos).
+
 
 import random
 
@@ -43,9 +41,17 @@ print(f"Seus números: {sorted(numero_usuario)}")
 
 #Verifica quantos números o usuário acertou.
     
-acertos = numero_usuario.intersection(sorteio_numeros)
-numeros_acertados = len(acertos)
-print (f"Você acertou {numeros_acertados} numero(s): {sorted(acertos)}")
+    while len(numero_usuario) < 6:
+        try: 
+            numero = int(input("Escolha um número entre 1 e 60: "))
+            if numero < 1 or numero > 60:
+                print("Por favor, escolha um número valido.")
+            elif numero in numero_usuario:
+                print("Você ja escolheu esse número. Digite outro número.")
+            else:
+                numero_usuario.add(numero)
+        except ValueError:
+            print("Por favor escolha um número válido.")
 
     #Premiação
 if numeros_acertados < 3:
