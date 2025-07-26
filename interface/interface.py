@@ -64,10 +64,10 @@ label_apresentacao.pack(pady=20)
 frame_botoes = ctk.CTkFrame(janela_inicial, fg_color="transparent")
 frame_botoes.pack(pady=30)
 
-botao_cadastro = ctk.CTkButton(frame_botoes, text="Ir para Cadastro", command=abrir_pagina_cadastro, width=200)
+botao_cadastro = ctk.CTkButton(frame_botoes, text="Ir para Cadastro", command=lambda: abrir_pagina_cadastro(janela_inicial), width=200)
 botao_cadastro.pack(pady=10)
 
-botao_sorteio = ctk.CTkButton(frame_botoes, text="Ir para Sorteio", command=abrir_pagina_sorteio, width=200)
+botao_sorteio = ctk.CTkButton(frame_botoes, text="Ir para Sorteio", command=lambda: abrir_pagina_sorteio(janela_inicial), width=200)
 botao_sorteio.pack(pady=10)
 
 # LINHA DE SEPARAÇÃO
