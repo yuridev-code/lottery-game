@@ -7,6 +7,11 @@ import os
 from interface.pagina_cadastro import abrir_pagina_cadastro
 from interface.pagina_sorteio import abrir_pagina_sorteio
 
+def criar_janela_principal():
+    janela_inicial = ctk.CTk()
+    janela_inicial.title("Sorteio")
+    janela_inicial.geometry("500x700")
+    ctk.set_default_color_theme("green")
 
 # Aparência
 janela_inicial = ctk.CTk()
