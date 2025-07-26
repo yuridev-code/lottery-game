@@ -3,35 +3,25 @@ import tkinter as tk
 from PIL import Image
 import os
 
-# Funcoes das paginas
-def abrir_pagina_cadastro():
-    nova_janela = ctk.CTkToplevel(app)
-    nova_janela.title("Cadastro de Participantes")
-    nova_janela.geometry("400x300")
-    ctk.CTkLabel(nova_janela, text="Página de Cadastro", font=("Arial", 18)).pack(pady=20)
+# importa as funções de outras páginas
+from interface.pagina_cadastro import abrir_pagina_cadastro
+from interface.pagina_sorteio import abrir_pagina_sorteio
 
-
-# def exibir, def historico
-def abrir_pagina_sorteio():
-    nova_janela = ctk.CTkToplevel(app)
-    nova_janela.title("Sorteio")
-    nova_janela.geometry("400x300")
-    ctk.CTkLabel(nova_janela, text="Página de Sorteio", font=("Arial", 18)).pack(pady=20)
 
 # Aparência
-app = ctk.CTk()
-app.title("Sorteio")
-app.geometry("500x700")
+janela_inicial = ctk.CTk()
+janela_inicial.title("Sorteio")
+janela_inicial.geometry("500x700")
 ctk.set_default_color_theme("green")
 
 # Topo
-frame_topo = ctk.CTkFrame(app, fg_color="transparent")
+frame_topo = ctk.CTkFrame(janela_inicial, fg_color="transparent")
 frame_topo.pack(pady=20)
 
 
 
 # LINHA DE SEPARAÇÃO
-linha1 = ctk.CTkFrame(app, height=2, fg_color="#444444")
+linha1 = ctk.CTkFrame(janela_inicial, height=2, fg_color="#444444")
 linha1.pack(fill="x", padx=40, pady=10)
 # LINHA DE SEPARAÇÃO
 
@@ -55,7 +45,7 @@ texto_apresentacao = (
 )
 
 label_apresentacao = ctk.CTkLabel(
-    app,
+    janela_inicial,
     text=texto_apresentacao,
     wraplength=400,
     justify="left",
@@ -66,7 +56,7 @@ label_apresentacao.pack(pady=20)
 
 
 # BOTÕES 
-frame_botoes = ctk.CTkFrame(app, fg_color="transparent")
+frame_botoes = ctk.CTkFrame(janela_inicial, fg_color="transparent")
 frame_botoes.pack(pady=30)
 
 botao_cadastro = ctk.CTkButton(frame_botoes, text="Ir para Cadastro", command=abrir_pagina_cadastro, width=200)
@@ -76,10 +66,14 @@ botao_sorteio = ctk.CTkButton(frame_botoes, text="Ir para Sorteio", command=abri
 botao_sorteio.pack(pady=10)
 
 # LINHA DE SEPARAÇÃO
-linha2 = ctk.CTkFrame(app, height=2, fg_color="#444444")
+linha2 = ctk.CTkFrame(janela_inicial, height=2, fg_color="#444444")
 linha2.pack(fill="x", padx=40, pady=20)
 # LINHA DE SEPARAÇÃO
 
 
 # Iniciar a interface
-app.mainloop()
+janela_inicial.mainloop()
+
+
+if __name__ == '__main__':
+    criar_janela_principal()
