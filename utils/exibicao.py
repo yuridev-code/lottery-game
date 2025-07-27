@@ -9,6 +9,8 @@ def exibir(numeros_sorteados, numeros_adicionados, quantidade_de_acertos, numero
     print(f"Números Acertados: {numeros_acertados}")
     return numeros_sorteados, numeros_adicionados, quantidade_de_acertos, numeros_acertados
 
+if __name__ == '__main__':
+    exibir()
 
 
                           
