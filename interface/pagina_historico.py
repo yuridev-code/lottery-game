@@ -21,3 +21,15 @@ class HistoricoJanela(ctk.CTkToplevel):
                 self.texto.insert("1.0", conteudo)
         else:
             self.texto.insert("1.0", "Nenhum histórico encontrado.")
+
+from utils.historico import registro, exibir
+
+registro({
+    "titulo": "Sorteio da turma A",
+    "participantes": ["João", "Ana", "Lara"],
+    "vencedor": "Lara",
+    "data": "28/07/2025",
+    "horario": "15:45"
+})
+
+print(exibir())
