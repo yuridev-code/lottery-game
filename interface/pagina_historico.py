@@ -1,7 +1,11 @@
-import customtkinter as ctk
 import os
+import customtkinter as ctk
 
-DIRETORIO = "dados/historico.txt"
+# pega o diretório raiz do projeto (uma pasta acima de interface)
+DIR_RAIZ = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
+
+# caminho absoluto para o arquivo historico.txt
+DIRETORIO = os.path.join(DIR_RAIZ, 'dados', 'historico.txt')
 
 def abrir_historico():
     janela = ctk.CTkToplevel()
@@ -12,7 +16,7 @@ def abrir_historico():
     texto.pack(expand=True, fill="both", padx=10, pady=10)
 
     if os.path.exists(DIRETORIO):
-        with open(DIRETORIO, 'r') as arquivo:
+        with open(DIRETORIO, 'r', encoding='utf-8') as arquivo:
             conteudo = arquivo.read()
             texto.insert("0.0", conteudo)
     else:
