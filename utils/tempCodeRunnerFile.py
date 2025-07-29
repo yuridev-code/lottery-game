@@ -1,1 +1,0 @@
-obter_numeros_usuario

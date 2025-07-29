@@ -1,5 +1,3 @@
-def comparar_apostas(numeros_usuario, numeros_sorteados):
-
-    acertos = set(numeros_usuario).intersection(numeros_sorteados)
-    numeros_acertados = len(acertos)
-    return acertos, numeros_acertados
+def comparar_apostas(sorteio, aposta):
+    numeros_acertados = sorted(set(sorteio) & set(aposta))
+    return len(numeros_acertados), numeros_acertados

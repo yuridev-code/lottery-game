@@ -1,10 +1,5 @@
-from datetime import datetime
-
-def registro(numeros_sorteados, numeros_adicionados, quantidade_de_acertos, numeros_acertados):
-    with open("historico.txt", "w", encoding="utf-8") as arquivo:
-        data_hora = datetime.now().strftime("%d/%m/%Y %H:%M:%S")
-        arquivo.write(f"Ultima Aposta: {data_hora}\t")
-        arquivo.write(f"Números Sorteados: {numeros_sorteados}\t")
-        arquivo.write(f"Números Adicionados: {numeros_adicionados}\t")
-        arquivo.write(f"Quantidade de Acertos: {quantidade_de_acertos}\t")
-        arquivo.write(f"Acertos: {numeros_acertados}\t")
+def registro(data_hora, aposta, sorteio, acertos, numeros_acertados):
+    with open("dados/sorteios.txt", 'a') as f:
+        f.write(f"{data_hora} - Sorteio: {sorteio}\n")
+    with open("dados/apostas.txt", 'a') as f:
+        f.write(f"{data_hora} - Aposta: {aposta}\n")
