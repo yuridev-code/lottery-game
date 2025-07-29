@@ -13,13 +13,12 @@ class HistoricoJanela(ctk.CTkToplevel):
 
         self.carregar_historico()
 
-    def carregar_historico(self):
-        caminho = "registro.txt"  # ou "historico.txt"
-        if os.path.exists(caminho):
-            with open(caminho, 'r', encoding='utf-8') as arquivo:
+        # carrega o histórico
+        try:
+            with open("utils/historico.txt", "r", encoding="utf-8") as arquivo:
                 conteudo = arquivo.read()
                 self.texto.insert("1.0", conteudo)
-        else:
+        except FileNotFoundError:
             self.texto.insert("1.0", "Nenhum histórico encontrado.")
 
 from utils.registro import registro

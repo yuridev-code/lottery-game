@@ -1,6 +1,4 @@
-    
-        #========Função gerar sorteio========   
-
+#========Função gerar sorteio========   
 import random
 
 def gerar_sorteio():
