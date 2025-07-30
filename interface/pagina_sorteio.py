@@ -50,4 +50,7 @@ def abrir_pagina_sorteio():
     botao_historico = ctk.CTkButton(janela, text="Ver Histórico", command=abrir_historico)
     botao_historico.pack(pady=10)
 
+    botao_sua_aposta = ctk.CTkButton(janela, text="Sua última aposta", command=abrir_historico)
+    botao_sua_aposta.pack(pady=10)
+
     janela.mainloop()

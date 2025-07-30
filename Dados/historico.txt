@@ -19,3 +19,14 @@ Sorteio: [18, 20, 34, 45, 46, 48] | Aposta: [4, 6, 7, 8, 9, 12] | Acertos: 0 | N
 30/07/2025 09:00:38 Sorteio: [22, 31, 32, 37, 38, 43] | Aposta: [1, 3, 4, 5, 6, 7] | Acertos: 0 | Números Acertados: []
 30/07/2025 09:18:42 Sorteio: [9, 24, 27, 36, 43, 44] | Aposta: [1, 2, 3, 4, 5, 6] | Acertos: 0 | Números Acertados: []
 >>>>>>> dbc9758e4cf7b48f871431766ba4945b23b5710c
+Sorteio: [18, 28, 31, 37, 39, 58] | Aposta: [1, 2, 3, 4, 5, 6] | Acertos: 0 | Números Acertados: Nenhum
+Sorteio: [2, 9, 22, 27, 51, 54] | Aposta: [1, 2, 3, 4, 5, 6] | Acertos: 1 | Números Acertados: 2
+Sorteio: [3, 8, 12, 26, 32, 51] | Aposta: [1, 2, 3, 4, 5, 6] | Acertos: 1 | Números Acertados: 3
+Sorteio: [9, 11, 27, 29, 35, 51] | Aposta: [1, 2, 3, 4, 5, 6] | Acertos: 0 | Números Acertados: Nenhum
+Sorteio: [4, 26, 31, 42, 43, 55] | Aposta: [2, 4, 5, 6, 7, 12] | Acertos: 1 | Números Acertados: 4
+Sorteio: [19, 22, 32, 36, 45, 53] | Aposta: [1, 2, 3, 4, 5, 6] | Acertos: 0 | Números Acertados: Nenhum
+Sorteio: [23, 31, 34, 42, 55, 56] | Aposta: [1, 2, 3, 4, 5, 6] | Acertos: 0 | Números Acertados: Nenhum
+Sorteio: [7, 16, 40, 42, 55, 58] | Aposta: [1, 2, 3, 4, 5, 6] | Acertos: 0 | Números Acertados: Nenhum
+Sorteio: [1, 8, 38, 44, 49, 53] | Aposta: [1, 2, 3, 4, 5, 6] | Acertos: 1 | Números Acertados: 1
+Sorteio: [3, 19, 20, 31, 43, 60] | Aposta: [1, 2, 3, 4, 5, 6] | Acertos: 1 | Números Acertados: 3
+Sorteio: [11, 26, 34, 43, 46, 60] | Aposta: [1, 2, 3, 4, 5, 6] | Acertos: 0 | Números Acertados: Nenhum
