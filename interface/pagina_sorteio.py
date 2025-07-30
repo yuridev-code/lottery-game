@@ -1,5 +1,6 @@
 import customtkinter as ctk
 from utils.apostar_sortear import fazer_aposta_e_sortear
+from utils.apostar_sortear import banca_doida
 from interface.pagina_historico import abrir_historico
 
 
@@ -14,7 +15,7 @@ def abrir_pagina_sorteio():
     label_info = ctk.CTkLabel(janela, text="Digite 6 números entre 1 e 60:", text_color="green", font=("Helvetica", 15, "bold"))
     label_info.pack(pady=(10, 2))
 
-    # 🔹 Novo frame para os resultados
+    # Novo frame para os resultados
     frame_resultado = ctk.CTkFrame(janela, fg_color="transparent")
     frame_resultado.pack(pady=1)
 
@@ -49,5 +50,8 @@ def abrir_pagina_sorteio():
 
     botao_historico = ctk.CTkButton(janela, text="Ver Histórico", command=abrir_historico)
     botao_historico.pack(pady=10)
+    
+    botao_definido = ctk.CTkButton(janela, text="Banca endoidou", command=lambda:banca_doida)
+    botao_definido.pack(pady=10)
 
     janela.mainloop()

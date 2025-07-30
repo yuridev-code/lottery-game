@@ -1,6 +1,11 @@
-def historico(sorteio, aposta, acertos, numeros_acertados, gerar_id):
+def historico(data_hora, id, sorteio, aposta, acertos, numeros_acertados):
     with open("dados/historico.txt", 'a', encoding="utf-8") as f:
-        texto_acertados = "Nenhum" if acertos == 0 else ", ".join(map(str, numeros_acertados))
+        texto_acertados =", ".join(map(str, numeros_acertados))
+        if acertos == 0:
+            texto_acertados = "Nenhum" 
+        else:
+            ", ".join(map(str, numeros_acertados))
+        
         f.write(
-            f" Id:{gerar_id} Sorteio: {sorteio} | Aposta: {aposta} | Acertos: {acertos} | Números Acertados: {texto_acertados}\n"
+            f"Data: {data_hora} Id:{id} Sorteio: {sorteio} | Aposta: {aposta} | Acertos: {acertos} | Números Acertados: {texto_acertados}\n"
         )
