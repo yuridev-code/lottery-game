@@ -1,4 +1,4 @@
-import randomfr
+import random
 
 def gerar_id():
     id_usuario = 0
