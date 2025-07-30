@@ -16,9 +16,7 @@ def fazer_aposta_e_sortear(entry_numeros, labels_dict):
     labels_dict["sorteio"].configure(text=f"Números Sorteados: {sorteio}")
     labels_dict["aposta"].configure(text=f"Sua Aposta: {aposta}")
     labels_dict["acertos"].configure(text=f"Você acertou {acertos} número(s)")
-    labels_dict["numeros_acertados"].configure(
-        text=f"Números Acertados: {numeros_acertados}" if acertos else "Números Acertados: Nenhum"
-    )
+    labels_dict["numeros_acertados"].configure(text=f"Números Acertados: {numeros_acertados}" if acertos else "Números Acertados: Nenhum")
 
     data_hora = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     registro(data_hora, aposta, sorteio, acertos, numeros_acertados)
