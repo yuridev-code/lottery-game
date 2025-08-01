@@ -1,5 +1,2 @@
-- identificar o ganhador (prioridade)
-- deixar apenas um histórico (Yuri)
-- criar a pagina da ultima aposta (sobrescreve a anterior) (Yuri)
-- criar opção na interface (Kauã)
+- Falta: Arrumar Banca doida
 

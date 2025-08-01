@@ -22,6 +22,7 @@ def abrir_pagina_sorteio():
 
     # resultado e botão sortear
     labels_resultado = {
+        "id": ctk.CTkLabel(janela, text=""),
         "sorteio": ctk.CTkLabel(frame_resultado, text=""),
         "aposta": ctk.CTkLabel(frame_resultado, text=""),
         "acertos": ctk.CTkLabel(frame_resultado, text=""),

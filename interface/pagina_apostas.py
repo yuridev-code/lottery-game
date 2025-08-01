@@ -11,7 +11,7 @@ def abrir_historico_sorteio():
     janela = ctk.CTkToplevel()
     janela.title("Histórico dos Sorteios")
     janela.geometry("500x400")
-
+    
     texto = ctk.CTkTextbox(janela, wrap='word')
     texto.pack(expand=True, fill="both", padx=10, pady=10)
 
