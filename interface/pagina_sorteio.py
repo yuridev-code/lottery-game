@@ -19,15 +19,15 @@ def abrir_pagina_sorteio():
     frame_resultado = ctk.CTkFrame(janela, fg_color="transparent")
     frame_resultado.pack(pady=1)
 
-
     # resultado e botão sortear
     labels_resultado = {
+        "resultado": ctk.CTkLabel(janela, text="", text_color="yellow", font=("Helvetica", 18, "bold")),
         "id": ctk.CTkLabel(janela, text=""),
         "sorteio": ctk.CTkLabel(frame_resultado, text=""),
         "aposta": ctk.CTkLabel(frame_resultado, text=""),
         "acertos": ctk.CTkLabel(frame_resultado, text=""),
         "numeros_acertados": ctk.CTkLabel(frame_resultado, text="")
-    }
+        }
 
     for label in labels_resultado.values():
         label.pack(pady=2)

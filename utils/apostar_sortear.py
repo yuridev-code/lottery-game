@@ -14,6 +14,15 @@ def fazer_aposta_e_sortear(entry_numeros, labels_dict):
     sorteio = gerar_sorteio()
     acertos, numeros_acertados = comparar_apostas(sorteio, aposta)
     id = gerar_id()
+    
+    if len(set(sorteio) & set(aposta)) < 4:
+        labels_dict["resultado"].configure(text=f"VOCÊ PERDEU MIZERAVI!!!")
+    
+    elif len(set(sorteio) & set(aposta)) >= 4 and len(set(sorteio) & set(aposta)) < 6:
+        labels_dict["resultado"].configure(text=f"VOCÊ GANHOU MIZERAVI!!!")
+    
+    elif len(set(sorteio) & set(aposta)) == 6:
+        labels_dict["resultado"].configure(text=f"VOCÊ GANHOU O PRÊMIO MÁXIMO SEU MIZERAVI!!!")
 
     labels_dict["id"].configure(text=f"O seu ID: {id}")
     labels_dict["sorteio"].configure(text=f"Números Sorteados: {sorteio}")
@@ -23,7 +32,8 @@ def fazer_aposta_e_sortear(entry_numeros, labels_dict):
 
     data_hora = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     historico(data_hora, id, sorteio, aposta, acertos, numeros_acertados)
-
+    
+        
 def banca_doida(entry_numeros, labels_dict):
     aposta = validar_aposta(entry_numeros)
     if aposta is None:
