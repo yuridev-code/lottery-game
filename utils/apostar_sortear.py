@@ -11,18 +11,21 @@ def fazer_aposta_e_sortear(entry_numeros, labels_dict):
     if aposta is None:
         return
 
+    id = gerar_id()
     sorteio = gerar_sorteio()
     acertos, numeros_acertados = comparar_apostas(sorteio, aposta)
-    id = gerar_id()
     
-    if len(set(sorteio) & set(aposta)) < 4:
-        labels_dict["resultado"].configure(text=f"VOCÊ PERDEU MIZERAVI!!!")
+    acertos_totais = len(set(sorteio) & set(aposta))
     
-    elif len(set(sorteio) & set(aposta)) >= 4 and len(set(sorteio) & set(aposta)) < 6:
-        labels_dict["resultado"].configure(text=f"VOCÊ GANHOU MIZERAVI!!!")
-    
-    elif len(set(sorteio) & set(aposta)) == 6:
-        labels_dict["resultado"].configure(text=f"VOCÊ GANHOU O PRÊMIO MÁXIMO SEU MIZERAVI!!!")
+    if acertos_totais < 4:
+        labels_dict["resultado"].configure(text="VOCÊ PERDEU MIZERAVI!!!")
+        
+    elif acertos_totais < 6:
+        labels_dict["resultado"].configure(text="VOCÊ GANHOU MIZERAVI!!!")
+        
+    else:
+        labels_dict["resultado"].configure(text="VOCÊ GANHOU O PRÊMIO MÁXIMO SEU MIZERAVI!!!")
+
 
     labels_dict["id"].configure(text=f"O seu ID: {id}")
     labels_dict["sorteio"].configure(text=f"Números Sorteados: {sorteio}")
@@ -42,6 +45,16 @@ def banca_doida(entry_numeros, labels_dict):
     id = gerar_id()
     sorteio = definido()
     acertos, numeros_acertados = comparar_apostas(sorteio, aposta)
+    acertos_totais = len(set(sorteio) & set(aposta))
+    
+    if acertos_totais < 4:
+        labels_dict["resultado"].configure(text="VOCÊ PERDEU MIZERAVI!!!")
+        
+    elif acertos_totais < 6:
+        labels_dict["resultado"].configure(text="VOCÊ GANHOU MIZERAVI!!!")
+        
+    else:
+        labels_dict["resultado"].configure(text="VOCÊ GANHOU O PRÊMIO MÁXIMO SEU MIZERAVI!!!")
 
     labels_dict["id"].configure(text=f"O seu ID: {id}")
     labels_dict["sorteio"].configure(text=f"Números Sorteados: {sorteio}")

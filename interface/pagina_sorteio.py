@@ -52,7 +52,7 @@ def abrir_pagina_sorteio():
     botao_historico = ctk.CTkButton(janela, text="Ver Histórico", command=abrir_historico)
     botao_historico.pack(pady=10)
     
-    botao_definido = ctk.CTkButton(janela, text="Banca endoidou", command=lambda:banca_doida)
+    botao_definido = ctk.CTkButton(janela, text="Banca Endoidou", command=lambda:banca_doida(entry_numeros, labels_resultado))
     botao_definido.pack(pady=10)
 
     janela.mainloop()
