@@ -5,7 +5,7 @@ def historico(data_hora, id, sorteio, aposta, acertos, numeros_acertados):
         numeros_acertados_str = ", ".join(map(str, numeros_acertados))
 
     with open("dados/historico.txt", 'a', encoding="utf-8") as f:
-        f.write("\n" + "="*65 + "\n")
+        f.write("\n" + "="*63 + "\n")
         f.write(f" Data/Hora        : {data_hora}\n")
         f.write(f" ID               : {id}\n")
         f.write(f" Números Sorteados: {', '.join(map(str, sorteio))}\n")

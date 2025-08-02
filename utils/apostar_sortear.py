@@ -47,7 +47,7 @@ def banca_doida(entry_numeros, labels_dict):
     acertos, numeros_acertados = comparar_apostas(sorteio, aposta)
     acertos_totais = len(set(sorteio) & set(aposta))
     
-    if acertos_totais < 4:
+    if acertos_totais <= 3:
         labels_dict["resultado"].configure(text="VOCÊ PERDEU MIZERAVI!!!")
         
     elif acertos_totais < 6:
