@@ -29,16 +29,16 @@ def criar_janela_principal():
     # imagem
 
     # Titulo
-    Titulo = ctk.CTkLabel(frame_topo, text="Sorteadora Digital", text_color="green", font=("Helvetica", 28, "bold"))
+    Titulo = ctk.CTkLabel(frame_topo, text="Sorteador Digital", text_color="green", font=("Helvetica", 28, "bold"))
     Titulo.pack(pady=10)
 
 
     texto_apresentacao = (
-        "🎉 Bem-vindo ao Sorteador da Sorte!\n\n"
-        "Você está prestes a participar de uma experiência única e divertida! "
-        "Escolha seus números, clique em sortear e veja se a sorte está do seu lado.\n\n"
-        "💰 Quem sabe você não seria o próximo milionário, se esse sorteio fosse real?"
-    )
+    "🎰 Bem-vindo ao Sorteador Digital!\n\n"
+    "Aposte seus números como se isso fosse mudar alguma coisa. Clique em ir para o sorteio, "
+    "cruze os dedos e finja que o universo se importa com você.\n\n"
+    "📉 Porque quem confia na sorte... geralmente só coleciona decepções (e erros de lógica)."
+)
 
     label_apresentacao = ctk.CTkLabel(
         janela_inicial,
