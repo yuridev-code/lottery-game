@@ -22,8 +22,8 @@ def criar_janela_principal():
     # LINHA DE SEPARAÇÃO
 
     # Caminho absoluto até a imagem
-    caminho_da_imagem = os.path.join(os.path.dirname(__file__), "image", "trevo_4.jpg")
-    logo_img = ctk.CTkImage(Image.open(caminho_da_imagem), size=(100, 100))
+    caminho_da_imagem = os.path.join(os.path.dirname(__file__), "image", "trevo_moeda.png")
+    logo_img = ctk.CTkImage(Image.open(caminho_da_imagem), size=(250, 250))
     logo = ctk.CTkLabel(frame_topo, image=logo_img, text="")
     logo.pack()
     # imagem
