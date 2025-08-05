@@ -10,7 +10,7 @@ def abrir_pagina_sorteio():
     janela.geometry("500x500")
 
     ctk.set_appearance_mode("dark")
-    ctk.set_default_color_theme("blue")
+    ctk.set_default_color_theme("green")
 
     label_info = ctk.CTkLabel(janela, text="Digite 6 números entre 1 e 60:", text_color="green", font=("Helvetica", 15, "bold"))
     label_info.pack(pady=(10, 2))
