@@ -10,7 +10,6 @@ def abrir_pagina_sorteio():
     janela.geometry("500x500")
 
     ctk.set_appearance_mode("dark")
-    ctk.set_default_color_theme("green")
 
     label_info = ctk.CTkLabel(janela, text="Digite 6 números entre 1 e 60:", text_color="green", font=("Helvetica", 15, "bold"))
     label_info.pack(pady=(10, 2))
@@ -46,13 +45,13 @@ def abrir_pagina_sorteio():
     for label in labels_resultado.values():
         label.pack(pady=2)
 
-    botao_sortear = ctk.CTkButton(janela, text="Sortear", command=lambda: fazer_aposta_e_sortear(entry_numeros, labels_resultado))
+    botao_sortear = ctk.CTkButton(janela, text="Sortear",fg_color="green", command=lambda: fazer_aposta_e_sortear(entry_numeros, labels_resultado))
     botao_sortear.pack(pady=10)
 
-    botao_historico = ctk.CTkButton(janela, text="Ver Histórico", command=abrir_historico)
+    botao_historico = ctk.CTkButton(janela, text="Ver Histórico", fg_color="green", command=abrir_historico)
     botao_historico.pack(pady=10)
     
-    botao_definido = ctk.CTkButton(janela, text="Banca Endoidou", command=lambda:banca_doida(entry_numeros, labels_resultado))
+    botao_definido = ctk.CTkButton(janela, text="Banca Endoidou", fg_color="green", command=lambda:banca_doida(entry_numeros, labels_resultado))
     botao_definido.pack(pady=10)
 
     janela.mainloop()

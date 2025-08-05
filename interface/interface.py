@@ -10,7 +10,6 @@ def criar_janela_principal():
     janela_inicial = ctk.CTk()
     janela_inicial.title("Sorteio")
     janela_inicial.geometry("500x700")
-    ctk.set_default_color_theme("green")
 
     # Topo
     frame_topo = ctk.CTkFrame(janela_inicial, fg_color="transparent")
@@ -55,7 +54,7 @@ def criar_janela_principal():
     frame_botoes = ctk.CTkFrame(janela_inicial, fg_color="transparent")
     frame_botoes.pack(pady=30)
 
-    botao_sorteio = ctk.CTkButton(frame_botoes, text="Ir para Sorteio", command=lambda: abrir_pagina_sorteio(), width=200)
+    botao_sorteio = ctk.CTkButton(frame_botoes, text="Ir para Sorteio", fg_color="green", command=lambda: abrir_pagina_sorteio(), width=200)
     botao_sorteio.pack(pady=10)
 
     # LINHA DE SEPARAÇÃO
