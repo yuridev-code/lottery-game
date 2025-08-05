@@ -10,6 +10,8 @@ def criar_janela_principal():
     janela_inicial = ctk.CTk()
     janela_inicial.title("Sorteio")
     janela_inicial.geometry("500x700")
+    ctk.set_appearance_mode("dark")
+
 
     # Topo
     frame_topo = ctk.CTkFrame(janela_inicial, fg_color="transparent")
