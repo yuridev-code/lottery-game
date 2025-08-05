@@ -74,3 +74,42 @@ pip install -r requirements.txt
 # 4. Execute o programa
 python main.py
 
+```
+<h2 align="center">👨‍💻 Equipe de Desenvolvimento</h2>
+
+<div align="center">
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/CarlosIFRN" target="_blank">
+        <img src="img/mathew.JPG" width="100px;" alt="Carlos Mateus"/><br />
+        <sub><b>Carlos Mateus</b></sub><br />
+        <small>Backend</small>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/JadsonAlv3s" target="_blank">
+        <img src="img/jadson.JPG" width="100px;" alt="Jadson Alves"/><br />
+        <sub><b>Jadson Alves</b></sub><br />
+        <small>Backend</small>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/Kaua920" target="_blank">
+        <img src="img/Kaua.jpg" width="100px;" alt="Kauã Henrique"/><br />
+        <sub><b>Kauã Henrique</b></sub><br />
+        <small>Frontend</small>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/yurif4bio" target="_blank">
+        <img src="img/yuri.jpg" width="100px;" alt="Yuri Fábio"/><br />
+        <sub><b>Yuri Fábio</b></sub><br />
+        <small>Backend</small>
+      </a>
+    </td>
+  </tr>
+</table>
+
+</div>
