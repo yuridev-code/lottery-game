@@ -31,7 +31,7 @@ python -m utils.main
 
 ### 👨‍💻 Autores
 
-- **Kauã Henrique** — Desenvolvedor frontend e alguns detalhes do backend — [@Kaua920](https://github.com/Kaua920)
-- **Yuri Fábio** — Desenvolvedor backend e alguns detalhes do frontend e o README — [@yurif4bio](https://github.com/yurif4bio)
 - **Carlos Mateus** — Desenvolvedor backend  — [@CarlosIFRN](https://github.com/CarlosIFRN)
 - **Jadson Alves** — Desenvolvedor das backend  — [@JadsonAlv3s](https://github.com/JadsonAlv3s)
+- **Kauã Henrique** — Desenvolvedor frontend e alguns detalhes do backend — [@Kaua920](https://github.com/Kaua920)
+- **Yuri Fábio** — Desenvolvedor backend e alguns detalhes do frontend e o README — [@yurif4bio](https://github.com/yurif4bio)
