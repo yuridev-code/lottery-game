@@ -24,11 +24,14 @@ Um programa de loteria simples em Python. O usuário insere uma sequência de n�
 git clone https://github.com/seu-usuario/sorteador-digital.git
 cd projeto-final-grupo-1-ilp
 python -m utils.main
+
+```
  
+---
 
 ### 👨‍💻 Autores
 
 - **Kauã Henrique** — Desenvolvedor frontend e alguns detalhes do backend — [@Kaua920](https://github.com/Kaua920)
-- **Yuri Fábio** — Desenvolvedor backend e alguns detalhes do frontend — [@yurif4bio](https://github.com/yurif4bio)
+- **Yuri Fábio** — Desenvolvedor backend e alguns detalhes do frontend e o README — [@yurif4bio](https://github.com/yurif4bio)
 - **Carlos Mateus** — Desenvolvedor backend  — [@CarlosIFRN](https://github.com/CarlosIFRN)
 - **Jadson Alves** — Desenvolvedor das backend  — [@JadsonAlv3s](https://github.com/JadsonAlv3s)
