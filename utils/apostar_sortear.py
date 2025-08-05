@@ -10,8 +10,10 @@ from utils.gerar_id import gerar_id
 def _exibir_resultado(labels_dict, id, sorteio, aposta, acertos, numeros_acertados, acertos_totais):
     if acertos_totais < 4:
         mensagem = "VOCÊ PERDEU MIZERAVI!!!"
-    elif acertos_totais < 6:
-        mensagem = "VOCÊ GANHOU MIZERAVI!!!"
+    elif acertos_totais == 4:
+        mensagem = "PARABÉNS, VOCÊ FEZ UMA QUADRA MIZERAVI!!!"
+    elif acertos_totais == 5:        
+        mensagem = "PARABÉNS, VOCÊ FEZ UMA QUINA MIZERAVI!!!"         
     else:
         mensagem = "VOCÊ GANHOU O PRÊMIO MÁXIMO SEU MIZERAVI!!!"
 

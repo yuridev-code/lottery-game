@@ -166,3 +166,91 @@
  Sua Aposta       : 1, 2, 3, 4, 5, 6
  Acertos          : 0
  Números Acertados: Nenhum
+
+===============================================================
+ Data/Hora        : 2025-08-05 20:44:27
+ ID               : 5353010
+ Números Sorteados: 1, 2, 3, 4, 5, 6
+ Sua Aposta       : 1, 2, 3, 4, 5, 9
+ Acertos          : 5
+ Números Acertados: 1, 2, 3, 4, 5
+
+===============================================================
+ Data/Hora        : 2025-08-05 20:44:45
+ ID               : 9099389
+ Números Sorteados: 1, 2, 3, 4, 5, 6
+ Sua Aposta       : 1, 2, 3, 4, 8, 9
+ Acertos          : 4
+ Números Acertados: 1, 2, 3, 4
+
+===============================================================
+ Data/Hora        : 2025-08-05 20:44:47
+ ID               : 6955341
+ Números Sorteados: 11, 14, 23, 43, 53, 57
+ Sua Aposta       : 1, 2, 3, 4, 8, 9
+ Acertos          : 0
+ Números Acertados: Nenhum
+
+===============================================================
+ Data/Hora        : 2025-08-05 20:44:49
+ ID               : 8567331
+ Números Sorteados: 4, 15, 16, 36, 48, 54
+ Sua Aposta       : 1, 2, 3, 4, 8, 9
+ Acertos          : 1
+ Números Acertados: 4
+
+===============================================================
+ Data/Hora        : 2025-08-05 20:44:49
+ ID               : 3391265
+ Números Sorteados: 26, 28, 30, 31, 32, 52
+ Sua Aposta       : 1, 2, 3, 4, 8, 9
+ Acertos          : 0
+ Números Acertados: Nenhum
+
+===============================================================
+ Data/Hora        : 2025-08-05 20:44:50
+ ID               : 2761109
+ Números Sorteados: 7, 16, 26, 27, 44, 52
+ Sua Aposta       : 1, 2, 3, 4, 8, 9
+ Acertos          : 0
+ Números Acertados: Nenhum
+
+===============================================================
+ Data/Hora        : 2025-08-05 20:44:51
+ ID               : 3326492
+ Números Sorteados: 2, 6, 13, 48, 53, 60
+ Sua Aposta       : 1, 2, 3, 4, 8, 9
+ Acertos          : 1
+ Números Acertados: 2
+
+===============================================================
+ Data/Hora        : 2025-08-05 20:44:51
+ ID               : 4961892
+ Números Sorteados: 2, 7, 16, 39, 55, 60
+ Sua Aposta       : 1, 2, 3, 4, 8, 9
+ Acertos          : 1
+ Números Acertados: 2
+
+===============================================================
+ Data/Hora        : 2025-08-05 20:45:06
+ ID               : 3757386
+ Números Sorteados: 1, 2, 3, 4, 5, 6
+ Sua Aposta       : 1, 2, 3, 4, 8, 9
+ Acertos          : 4
+ Números Acertados: 1, 2, 3, 4
+
+===============================================================
+ Data/Hora        : 2025-08-05 20:45:15
+ ID               : 8576810
+ Números Sorteados: 1, 2, 3, 4, 5, 6
+ Sua Aposta       : 1, 2, 3, 4, 5, 9
+ Acertos          : 5
+ Números Acertados: 1, 2, 3, 4, 5
+
+===============================================================
+ Data/Hora        : 2025-08-05 20:45:23
+ ID               : 2496326
+ Números Sorteados: 1, 2, 3, 4, 5, 6
+ Sua Aposta       : 1, 2, 3, 4, 5, 6
+ Acertos          : 6
+ Números Acertados: 1, 2, 3, 4, 5, 6
