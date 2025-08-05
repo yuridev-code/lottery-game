@@ -2,9 +2,11 @@
   <img src="img/IFRN-logo.png" alt="IFRN" width="180"/>
 </p>
 
-## ▶️ Demonstração ao vivo
+<h2 align="center">▶️ Demonstração ao vivo</h2>
 
-![Demonstração do sorteador em funcionamento](img/loteria-video.gif)
+<p align="center">
+  <img src="img/loteria-video.gif" alt="Demonstração do sorteador em funcionamento" />
+</p>
 
 # 🎰 Sorteador Digital
 
