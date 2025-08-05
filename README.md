@@ -1,6 +1,6 @@
 # 🎰 Sorteador Digital
 
-Um programa de loteria simples em Python. O usuário insere uma sequência de números e o programa compara com uma sequência aleatória gerada automaticamente. O objetivo é verificar quantos números foram acertados.
+Um programa de loteria em Python. O usuário insere uma sequência de números e o programa compara com uma sequência aleatória gerada automaticamente. O objetivo é verificar quantos números foram acertados.
 
 ---
 
