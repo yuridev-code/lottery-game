@@ -8,7 +8,7 @@
   <img src="img/loteria-video.gif" alt="Demonstração do sorteador em funcionamento" />
 </p>
 
-# 🎰 Sorteador Digital
+<h1 align="center">🎰 Sorteador Digital</h1>
 
 Um sistema interativo de sorteio de números, desenvolvido em Python com interface gráfica. O usuário insere sua própria sequência e testa a sorte contra uma sequência aleatória gerada automaticamente pelo programa.
 
