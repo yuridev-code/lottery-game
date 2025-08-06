@@ -36,22 +36,29 @@ def abrir_pagina_sorteio():
     frame_entradas = ctk.CTkFrame(janela, fg_color="transparent")
     frame_entradas.pack(pady=4)
 
-    entry_numeros = []
-    for i in range(6):
-        entry = ctk.CTkEntry(frame_entradas, width=50, justify='center')
-        entry.grid(row=i // 3, column=i % 3, padx=10, pady=10)
-        entry_numeros.append(entry)
+    entrada_numeros_usuario = []
+    numeros_entradas = 6
+    colunas = 3
+    for i in range(numeros_entradas):
+        linha = i // colunas
+        coluna = i % colunas
 
-    for label in labels_resultado.values():
-        label.pack(pady=2)
+        entrada = ctk.CTkEntry(
+            frame_entradas,
+            width=50,
+            justify='center'
+        )
+        # grid: posicionamento de widgets
+        entrada.grid(row=linha, column=coluna, padx=10, pady=10)
+        entrada_numeros_usuario.append(entrada)
 
-    botao_sortear = ctk.CTkButton(janela, text="Sortear",fg_color="green", command=lambda: fazer_aposta_e_sortear(entry_numeros, labels_resultado))
+    botao_sortear = ctk.CTkButton(janela, text="Sortear",fg_color="green", command=lambda: fazer_aposta_e_sortear(entrada_numeros_usuario, labels_resultado))
     botao_sortear.pack(pady=10)
 
     botao_historico = ctk.CTkButton(janela, text="Ver Histórico", fg_color="green", command=abrir_historico)
     botao_historico.pack(pady=10)
     
-    botao_definido = ctk.CTkButton(janela, text="Banca Endoidou", fg_color="green", command=lambda:banca_doida(entry_numeros, labels_resultado))
+    botao_definido = ctk.CTkButton(janela, text="Banca Endoidou", fg_color="green", command=lambda:banca_doida(entrada_numeros_usuario, labels_resultado))
     botao_definido.pack(pady=10)
 
     janela.mainloop()

@@ -1,9 +1,9 @@
 from tkinter import messagebox
 from utils.constantes import *
 
-def validar_aposta(entry_numeros):
+def validar_aposta(entrada_numeros_usuario):
     aposta_usuario = set()
-    for i, entry in enumerate(entry_numeros):
+    for i, entry in enumerate(entrada_numeros_usuario):
         try:
             numero = int(entry.get())
             if numero in aposta_usuario:

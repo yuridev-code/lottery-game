@@ -310,3 +310,35 @@
  Sua Aposta       : 1, 2, 3, 4, 10, 45
  Acertos          : 4
  Números Acertados: 1, 2, 3, 4
+
+===============================================================
+ Data/Hora        : 2025-08-06 09:15:06
+ ID               : 1395849
+ Números Sorteados: 3, 30, 33, 35, 41, 45
+ Sua Aposta       : 1, 2, 3, 4, 5, 6
+ Acertos          : 1
+ Números Acertados: 3
+
+===============================================================
+ Data/Hora        : 2025-08-06 10:46:32
+ ID               : 5456023
+ Números Sorteados: 10, 12, 16, 39, 52, 57
+ Sua Aposta       : 1, 2, 3, 4, 6, 7
+ Acertos          : 0
+ Números Acertados: Nenhum
+
+===============================================================
+ Data/Hora        : 2025-08-06 11:01:09
+ ID               : 9805691
+ Números Sorteados: 12, 19, 20, 28, 42, 48
+ Sua Aposta       : 1, 2, 3, 4, 5, 6
+ Acertos          : 0
+ Números Acertados: Nenhum
+
+===============================================================
+ Data/Hora        : 2025-08-06 11:01:12
+ ID               : 5860446
+ Números Sorteados: 1, 2, 3, 4, 5, 6
+ Sua Aposta       : 1, 2, 3, 4, 5, 6
+ Acertos          : 6
+ Números Acertados: 1, 2, 3, 4, 5, 6
