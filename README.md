@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="img/IFRN-logo.png" alt="IFRN" width="180"/>
+  <img src="img/logo ifrn editada.png" alt="IFRN"/>
 </p>
 
 <h2 align="center">▶️ Demonstração ao vivo</h2>
