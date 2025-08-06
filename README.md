@@ -22,7 +22,7 @@ A ideia surgiu da proposta de aplicar conceitos de lógica de programação na c
 
 - Validação de dados do usuário
 - Comparação algorítmica de listas
-- Geração randômica com `random`
+- Geração de lista aleatória com `random`
 - Histórico de apostas
 - Interface visual acessível
 
@@ -65,7 +65,7 @@ A ideia surgiu da proposta de aplicar conceitos de lógica de programação na c
 ### Passos:
 ```bash
 # 1. Clone o repositório
-git clone https://github.com/seu-usuario/sorteador-digital.git
+git clone https://github.com/ilp-2025-1/projeto-final-grupo-1-ilp.git
 
 # 2. Acesse a pasta do projeto
 cd projeto-final-grupo-1-ilp
