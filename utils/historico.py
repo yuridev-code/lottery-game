@@ -1,4 +1,6 @@
+
 def historico(data_hora, id, sorteio, aposta, acertos, numeros_acertados):
+    """Registra dados da aposta em arquivo de histórico.txt."""
     if acertos == 0:
         numeros_acertados_str = "Nenhum"
     else:

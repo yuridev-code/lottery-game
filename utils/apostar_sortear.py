@@ -23,7 +23,10 @@ def _exibir_resultado(labels_dict, id, sorteio, aposta, acertos, numeros_acertad
     labels_dict["aposta"].configure(text=f"Sua Aposta: {aposta}")
     labels_dict["acertos"].configure(text=f"Você acertou {acertos} número(s)")
     
-    numeros_str = f"Números Acertados: {numeros_acertados}" if acertos else "Números Acertados: Nenhum"
+    if acertos:
+        numeros_str = f"Números Acertados: {numeros_acertados}"
+    else:
+        numeros_str = "Números Acertados: Nenhum"
     labels_dict["numeros_acertados"].configure(text=numeros_str)
 
 

@@ -2,6 +2,8 @@ from tkinter import messagebox
 from utils.constantes import *
 
 def validar_aposta(entry_numeros):
+    """Valida e retorna a aposta do usuário como lista ordenada ou None se inválida."""
+
     aposta_usuario = set()
     for i, entry in enumerate(entry_numeros):
         try:
